@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>optalogic challenge</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+      }
+      .but {
+        align-items: center;
+        font-family: sans-serif;
+        font-size: 50px;
+        line-height: 1.3;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+      }
+      .second {
+        align-items: center;
+        font-family: sans-serif;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        
+      }
+      .timer{
+          background: black;
+          color: blanchedalmond;
+      }
+      .dff{
+        text-align: center;
+      }
+    </style>
+    <script defer src="script.js"></script>
+    
+  </head>
+  <body>
+    <div class="timer">00:00</div>
+    <div class="but">
+      <button id="start">Start Timer</button>
+      <button id="stop">Stop Timer</button>
+      <button id="send">Send data</button>
+    </div>
+    <p class="diff">Previous Time differnece:<div class="timeDiffernece"></div></p>
+    <div class="links">
+      <a href="/challenge/">Home</a>
+    <a href="/challenge/reports.html">Reports</a>
+    </div>
+    
+  </body>
+</html>
